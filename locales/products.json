@@ -1,0 +1,318 @@
+{
+    "Игры и игровые сервисы": [
+      {
+        "name": "ARC Raiders (Steam, Standard Edition)",
+        "price_tjs": 323.9,
+        "description": "Steam-ключ игры ARC Raiders (стандартное издание) поступает на почту покупателя автоматически после оплаты:contentReference[oaicite:0]{index=0}."
+      },
+      {
+        "name": "ARC Raiders (Steam, любой доступный издание)",
+        "price_tjs": 335.9,
+        "description": "Steam-ключ ARC Raiders для выбранного издания высылается на почту сразу после оплаты:contentReference[oaicite:1]{index=1}."
+      },
+      {
+        "name": "GTA V Enhanced Edition + The Legacy (Steam Gift)",
+        "price_tjs": 283.8,
+        "description": "Подарочный ключ Steam для GTA 5 Enhanced Edition + Legacy. Игра автоматически добавляется в ваш аккаунт после оплаты:contentReference[oaicite:2]{index=2}."
+      },
+      {
+        "name": "Minecraft: Java & Bedrock Edition (ключ)",
+        "price_tjs": 201.6,
+        "description": "Лицензионный ключ обеих версий Minecraft (Java и Bedrock) для ПК. Ключ выдается автоматически 24/7 сразу после оплаты:contentReference[oaicite:3]{index=3}."
+      },
+      {
+        "name": "Dying Light (Steam, любое издание)",
+        "price_tjs": 39.5,
+        "description": "Steam-ключ Dying Light (любой вариант игры) высылается на электронную почту сразу после покупки:contentReference[oaicite:4]{index=4}."
+      },
+      {
+        "name": "The Witcher 3: Wild Hunt \u2013 Complete Edition (GOG)",
+        "price_tjs": 65.2,
+        "description": "Лицензионный ключ The Witcher 3: Wild Hunt \u2013 Complete (GOTY) для GOG. Ключ отправляется на почту покупателя сразу после оплаты:contentReference[oaicite:5]{index=5}."
+      },
+      {
+        "name": "Battlefield 6 (Steam, выбор издания)",
+        "price_tjs": 827.9,
+        "description": "Автопоставка Battlefield 6 на ваш Steam-аккаунт (выбранное издание). Игра активируется автоматически в вашем профиле после оплаты:contentReference[oaicite:6]{index=6}."
+      },
+      {
+        "name": "Kingdom Come: Deliverance II (Steam, любое издание)",
+        "price_tjs": 215.9,
+        "description": "Steam-ключ Kingdom Come: Deliverance II (любое издание) автоматически высылается на e-mail покупателя после оплаты:contentReference[oaicite:7]{index=7}."
+      },
+      {
+        "name": "Hogwarts Legacy (Steam, любое издание)",
+        "price_tjs": 64.7,
+        "description": "Steam-ключ Hogwarts Legacy (любой из доступных изданий) автоматически отправляется на указанный e-mail сразу после оплаты:contentReference[oaicite:8]{index=8}."
+      },
+      {
+        "name": "Helldivers 2 \u2014 Super Citizen Edition (Steam)",
+        "price_tjs": 455.9,
+        "description": "Steam-ключ Helldivers 2 (Super Citizen Edition). Ключ выдается после оплаты и позволяет активировать игру на вашем аккаунте."
+      },
+      {
+        "name": "Fortnite \u2014 1000 V-Bucks (Epic Games)",
+        "price_tjs": 11.9,
+        "description": "Внутриигровая валюта Fortnite \u2014 1000 V-Bucks для Epic Games (PC, Xbox, PS). Покупка легальная через Epic Games, выдача занимает около 5\u201315 минут:contentReference[oaicite:9]{index=9}."
+      },
+      {
+        "name": "Новый сезон Brawl Pass (Brawl Stars)",
+        "price_tjs": 75.5,
+        "description": "Сезонный пропуск Brawl Pass для Brawl Stars. После оплаты продавец самостоятельно активирует пропуск на указанном аккаунте пользователя (продавцу нужен Supercell ID):contentReference[oaicite:10]{index=10}."
+      }
+    ],
+    "Игровые ценности": [
+      {
+        "name": "Mobile Legends: Bang Bang \u2014 Алмазы",
+        "price_tjs": 6.5,
+        "description": "Алмазы Mobile Legends (внутриигровая валюта) доставляются на указанный игровой аккаунт автоматически после оплаты (необходимо ввести UID и Zone ID):contentReference[oaicite:11]{index=11}."
+      },
+      {
+        "name": "PUBG Mobile \u2014 UC (внутриигровая валюта)",
+        "price_tjs": 9.7,
+        "description": "UC \u2014 внутриигровая валюта PUBG Mobile. Заказ выполняется автоматически, UC зачисляются на ваш аккаунт сразу после оплаты:contentReference[oaicite:12]{index=12}."
+      },
+      {
+        "name": "Roblox \u2014 Robux (80\u20132000 шт.)",
+        "price_tjs": 15.5,
+        "description": "Robux для Roblox (80, 160, 500, 1000 или 2000 шт.). Валюта автоматически зачисляется на указанный аккаунт через специальную систему за несколько минут после оплаты:contentReference[oaicite:13]{index=13}."
+      },
+      {
+        "name": "Call of Duty Mobile \u2014 CP (внутриигровая валюта)",
+        "price_tjs": 14.2,
+        "description": "Внутриигровая валюта CP для Call of Duty Mobile. Код или активация доставляется на ваш аккаунт после оплаты."
+      },
+      {
+        "name": "Arena Breakout: Infinite \u2014 Bonds",
+        "price_tjs": 115.6,
+        "description": "Облигации (Bonds) для Arena Breakout: Infinite (игровая валюта). Выдается на аккаунт пользователя автоматически после оплаты."
+      },
+      {
+        "name": "VALORANT \u2014 1000 VP (Points)",
+        "price_tjs": 99.5,
+        "description": "1000 VP (Valorant Points) для аккаунта Valorant (регион RU). Код пополнения доставляется автоматически после оплаты."
+      },
+      {
+        "name": "VALORANT \u2014 2050 VP (Points)",
+        "price_tjs": 207.5,
+        "description": "2050 VP для российского аккаунта Valorant. Код пополнения отправляется после оплаты."
+      },
+      {
+        "name": "VALORANT \u2014 1520 VP (Points)",
+        "price_tjs": 182.2,
+        "description": "1520 VP для аккаунта Valorant (регион RU). Код пополнения выдается после оплаты."
+      },
+      {
+        "name": "VALORANT \u2014 5350 VP (Points)",
+        "price_tjs": 642.0,
+        "description": "5350 VP (Valorant Points) для аккаунта Valorant. Код пополнения доставляется после оплаты."
+      },
+      {
+        "name": "Roblox Gift Card 225\u201310000 Robux (Global)",
+        "price_tjs": 34.4,
+        "description": "Подарочная карта Robux Global номиналом 225\u201310000 Robux. Цифровой код выдается мгновенно 24/7 (отображается в окне браузера и приходит на вашу почту) сразу после оплаты:contentReference[oaicite:14]{index=14}."
+      },
+      {
+        "name": "League of Legends RP (EU) \u2014 240\u201342560 RP + подарок",
+        "price_tjs": 27.5,
+        "description": "Код пополнения RP (Riot Points) для League of Legends на EU-серверах (регион West/Nord/East). Код выдается автоматически после оплаты:contentReference[oaicite:15]{index=15}."
+      },
+      {
+        "name": "Fortnite \u2014 1000 V-Bucks (Epic Games)",
+        "price_tjs": 11.9,
+        "description": "1000 V-Bucks для Fortnite (Epic Games). Покупка легальная, валюта начисляется на аккаунт игрока через систему за несколько минут после оплаты:contentReference[oaicite:16]{index=16}."
+      }
+    ],
+    "Мобильные игры": [
+      {
+        "name": "Mobile Legends \u2014 Алмазы (авто по ID)",
+        "price_tjs": 6.5,
+        "description": "Алмазы Mobile Legends: Bang Bang (внутриигровая валюта) доставляются автоматически на указанный аккаунт (по UID) после оплаты:contentReference[oaicite:17]{index=17}."
+      },
+      {
+        "name": "PUBG Mobile \u2014 UC (авто по ID)",
+        "price_tjs": 9.7,
+        "description": "UC \u2014 внутриигровая валюта PUBG Mobile. Заказ выполняется автоматически, UC зачисляются на аккаунт пользователя сразу после оплаты:contentReference[oaicite:18]{index=18}."
+      },
+      {
+        "name": "Clash of Clans \u2014 Gold Pass (Акция)",
+        "price_tjs": 92.3,
+        "description": "Золотой пропуск (Gold Pass) для Clash of Clans. После оплаты Gold Pass активируется на ваш аккаунт через внутренний магазин игры."
+      },
+      {
+        "name": "Mobile Legends \u2014 Алмазы (авто, РФ)",
+        "price_tjs": 6.4,
+        "description": "Алмазы Mobile Legends (русская версия) с автоматической доставкой по UID. Валюта зачисляется на аккаунт сразу после оплаты:contentReference[oaicite:19]{index=19}."
+      },
+      {
+        "name": "Brawl Stars \u2014 Brawl Pass (все регионы)",
+        "price_tjs": 75.5,
+        "description": "Сезонный пропуск Brawl Pass для всех регионов Brawl Stars. После оплаты продавец активирует пропуск на указанном аккаунте (необходимо указать Supercell ID):contentReference[oaicite:20]{index=20}."
+      },
+      {
+        "name": "Brawl Stars \u2014 Brawl Pass Plus (Акции)",
+        "price_tjs": 130.7,
+        "description": "Расширенный пропуск Brawl Pass Plus для Brawl Stars (все регионы). Код пропуска выдается продавцом и активируется на аккаунте после оплаты:contentReference[oaicite:21]{index=21}."
+      },
+      {
+        "name": "Brawl Stars \u2014 Gems (алмазы)",
+        "price_tjs": 27.5,
+        "description": "Алмазы (Gems) для Brawl Stars, активируются на аккаунт. Заказ выполняется автоматически сразу после оплаты."
+      },
+      {
+        "name": "Clash Royale \u2014 Алмазный пропуск",
+        "price_tjs": 137.4,
+        "description": "Алмазный пропуск (Diamond Pass) для Clash Royale, активируется на аккаунт. После оплаты продавец сам активирует его на вашем аккаунте."
+      },
+      {
+        "name": "League of Legends: Wild Rift \u2014 Wild Cores (RU)",
+        "price_tjs": 46.8,
+        "description": "Wild Cores (внутриигровая валюта) для League of Legends: Wild Rift на RU-серверах. Средства начисляются на аккаунт автоматически после оплаты."
+      },
+      {
+        "name": "Fortnite Crew (1 месяц) \u2014 1000 V-Bucks",
+        "price_tjs": 71.9,
+        "description": "Подписка Fortnite Crew на 1 месяц вместе с 1000 V-Bucks. Подписка активируется на указанный аккаунт после оплаты."
+      },
+      {
+        "name": "Genshin Impact \u2014 Жемчужный гимн (300+30 кристаллов)",
+        "price_tjs": 85.7,
+        "description": "Жемчужный гимн для Genshin Impact (300 + 30 кристаллов). Кристаллы доставляются на ваш аккаунт мгновенно после оплаты:contentReference[oaicite:22]{index=22}."
+      },
+      {
+        "name": "Call of Duty Mobile \u2014 CP (внутриигровые очки)",
+        "price_tjs": 14.2,
+        "description": "CP \u2014 внутриигровая валюта Call of Duty Mobile. Код активации CP предоставляется после оплаты."
+      }
+    ],
+    "Сервисы и соцсети": [
+      {
+        "name": "Пополнение Steam \u2014 RUB, KZT, UAH",
+        "price_tjs": 6.5,
+        "description": "Автоматическое пополнение баланса Steam (рубли/тенге/гривны). Средства поступают на аккаунт мгновенно 24/7 после оплаты:contentReference[oaicite:23]{index=23}."
+      },
+      {
+        "name": "Автопополнение Steam (24/7)",
+        "price_tjs": 6.6,
+        "description": "Автоматическое пополнение баланса Steam (RUB/KZT/UAH). Деньги зачисляются мгновенно после оплаты (вводите логин аккаунта):contentReference[oaicite:24]{index=24}."
+      },
+      {
+        "name": "Пополнение Steam +5% (UA/RU/KZ/CIS) + подарок",
+        "price_tjs": 6.4,
+        "description": "Пополнение баланса Steam с бонусом +5% для регионов UA/RU/KZ/СНГ. Инструкция: введите сумму и логин, далее средства поступают на аккаунт автоматически:contentReference[oaicite:25]{index=25}."
+      },
+      {
+        "name": "Автопополнение Steam [RUB/KZT/UAH]",
+        "price_tjs": 6.4,
+        "description": "Быстрое автоматическое пополнение Steam-кошелька (рубли/тенге/гривны). Сумма средств автоматически начисляется на указанный аккаунт сразу после оплаты:contentReference[oaicite:26]{index=26}."
+      },
+      {
+        "name": "Spotify Premium \u2014 1/3/6/12 мес.",
+        "price_tjs": 105.0,
+        "description": "Продление подписки Spotify Premium на 1, 3, 6 или 12 месяцев. После оплаты аккаунт автоматически продлевается в течение 1\u20135 минут:contentReference[oaicite:27]{index=27}."
+      },
+      {
+        "name": "Spotify Premium \u2014 1 месяц (229₽)",
+        "price_tjs": 27.5,
+        "description": "Подписка Spotify Premium на 1 месяц за 229 ₽. После оплаты система автоматически продлевает срок действия подписки на вашем аккаунте:contentReference[oaicite:28]{index=28}."
+      },
+      {
+        "name": "PS Plus (Украина)",
+        "price_tjs": 83.9,
+        "description": "Подписка PS Plus (стандарт, экстра, люкс, EA Play) для украинского аккаунта PSN. Оформляется быстро, комиссию магазин оплачивает сам:contentReference[oaicite:29]{index=29}."
+      },
+      {
+        "name": "Турецкий PSN-аккаунт (новый)",
+        "price_tjs": 21.5,
+        "description": "Новый турецкий аккаунт PlayStation (PS4/PS5) с привязанной почтой. Выдается сразу после оплаты, аккаунт принадлежит только вам (можно пополнять, покупать игры/подписки):contentReference[oaicite:30]{index=30}."
+      },
+      {
+        "name": "Подарочная карта PSN TR (250\u20135000 TL)",
+        "price_tjs": 69.5,
+        "description": "Подарочная карта PS Store Турция номиналом 250\u20135000 турецких лир. Код приходит автоматически после оплаты, используется для пополнения турецкого аккаунта:contentReference[oaicite:31]{index=31}."
+      },
+      {
+        "name": "ChatGPT Plus 5.1 \u2014 1 месяц (на ваш аккаунт)",
+        "price_tjs": 288.0,
+        "description": "Официальная подписка ChatGPT Plus (GPT-5.1) на 1 месяц. Продавец высылает готовый аккаунт или оформляет подписку на ваш аккаунт, сохраняя переписки:contentReference[oaicite:32]{index=32}."
+      },
+      {
+        "name": "ChatGPT 5.1+5 Plus \u2014 1 месяц",
+        "price_tjs": 281.9,
+        "description": "Подписка ChatGPT 5.1 Plus (Sora) на 1 месяц. Продавец мгновенно предоставляет готовый аккаунт ChatGPT Plus, данные отправляются на почту после оплаты:contentReference[oaicite:33]{index=33}."
+      },
+      {
+        "name": "Perplexity AI Pro \u2014 12 месяцев (ключ)",
+        "price_tjs": 53.9,
+        "description": "Ключ активации Perplexity AI Pro на 1 год (12 месяцев). После оплаты цифровой код высылается сразу, активируется мгновенно:contentReference[oaicite:34]{index=34}."
+      },
+      {
+        "name": "ChatGPT 5.1 Plus \u2014 1 месяц (оф. покупка)",
+        "price_tjs": 264.0,
+        "description": "Подписка ChatGPT 5 Plus на 1 месяц по официальной цене. Продавец помогает приобрести подписку на ваш аккаунт (с сохранением данных), всё легально:contentReference[oaicite:35]{index=35}."
+      }
+    ],
+    "Программы": [
+      {
+        "name": "Ключ Windows 10/11 Pro (MSDN)",
+        "price_tjs": 12.0,
+        "description": "Лицензионный ключ активации Windows 10/11 Pro/Home (официальная версия). Ключ доставляется автоматически после оплаты."
+      },
+      {
+        "name": "Adobe Creative Cloud \u2014 30 дней (все приложения)",
+        "price_tjs": 105.0,
+        "description": "Подписка Adobe Creative Cloud (все приложения) на 30 дней: после оплаты вам выдается учетная запись (e-mail/пароль), на которую активируется подписка:contentReference[oaicite:36]{index=36}."
+      },
+      {
+        "name": "Microsoft Office 2024 Pro Plus (ключ)",
+        "price_tjs": 101.9,
+        "description": "Ключ активации Microsoft Office 2024 Pro Plus (RTM/LTSC). Ключ отправляется на e-mail сразу после оплаты:contentReference[oaicite:37]{index=37}."
+      },
+      {
+        "name": "Adobe Creative Cloud \u2014 7 дней (аренда аккаунта)",
+        "price_tjs": 52.8,
+        "description": "Аренда личного аккаунта Adobe Creative Cloud на 7 дней. Данные доступа (e-mail/пароль) выдаются автоматически после оплаты (аккаунтом пользуетесь только вы)."
+      },
+      {
+        "name": "Kaspersky Standard \u2014 1 год (1 ПК)",
+        "price_tjs": 65.9,
+        "description": "Лицензионный ключ Kaspersky Internet Security (стандартная версия) на 1 год (для 1 ПК). Ключ выдается сразу после оплаты и активируется в приложении:contentReference[oaicite:38]{index=38}."
+      },
+      {
+        "name": "CapCut Pro \u2014 обновление/аккаунт на 1 год",
+        "price_tjs": 871.6,
+        "description": "Продление или новое оформление подписки CapCut Pro на 1 год. После оплаты создается личный аккаунт CapCut Pro (или обновляется ваш), данные доступа высылаются на почту:contentReference[oaicite:39]{index=39}."
+      },
+      {
+        "name": "CapCut Pro \u2014 аренда аккаунта 7 дней",
+        "price_tjs": 52.8,
+        "description": "Аренда индивидуального аккаунта CapCut Pro на 7 дней. Данные для входа выдаются мгновенно (24/7) после оплаты; аккаунтом пользуетесь только вы:contentReference[oaicite:40]{index=40}."
+      },
+      {
+        "name": "JetBrains All Products Pack + AI (1 мес.)",
+        "price_tjs": 35.9,
+        "description": "Лицензионный ключ JetBrains All Products Pack (включая AI) на 1 месяц. Ключ или аккаунт высылаются после оплаты."
+      },
+      {
+        "name": "Microsoft Office 365 Pro Plus \u2014 12 мес.",
+        "price_tjs": 95.9,
+        "description": "Подписка Microsoft Office 365 Pro Plus на 12 месяцев. После оплаты ключ или учетная запись Office доставляется на e-mail покупателя."
+      },
+      {
+        "name": "JetBrains All Products Pack + AI (12 мес.)",
+        "price_tjs": 431.9,
+        "description": "Лицензия JetBrains All Products Pack (с AI) на 12 месяцев. Ключ или аккаунт предоставляется после оплаты."
+      },
+      {
+        "name": "Spotify Premium \u2014 1 месяц",
+        "price_tjs": 27.5,
+        "description": "Подписка Spotify Premium на 1 месяц. После оплаты высылается код или продлевается аккаунт пользователя."
+      },
+      {
+        "name": "Adobe Creative Cloud \u2014 3 дня",
+        "price_tjs": 21.8,
+        "description": "Аренда аккаунта Adobe Creative Cloud на 3 дня. Данные аккаунта выдаются автоматически после оплаты."
+      }
+    ]
+  }
+  
