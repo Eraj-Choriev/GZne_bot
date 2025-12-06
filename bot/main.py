@@ -14,25 +14,61 @@ from .config import Config
 from .localization import load_locales, get_locale
 from .state import get_user_lang
 from .handlers import (
-    start, 
-    language, 
-    support, 
-    button, 
-    receipt, 
+    start,
+    language,
+    support,
+    button,
+    receipt,
     text,
     errors
 )
+
+# Import database and logging setup
+try:
+    from .models import init_db
+    from .logger import setup_logging
+    DB_AVAILABLE = True
+except ImportError:
+    DB_AVAILABLE = False
+    print("⚠️  Database modules not available. Running without DB support.")
 
 logger = logging.getLogger(__name__)
 
 
 def init_app():
     """Initialize the bot application."""
-    logging.basicConfig(
-        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
-    )
+    # Setup logging (production-ready or fallback to basic)
+    if DB_AVAILABLE:
+        try:
+            setup_logging()
+            logger.info("✅ Production logging initialized")
+        except Exception as e:
+            logging.basicConfig(
+                format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+                level=logging.INFO
+            )
+            logger.warning(f"⚠️  Fallback to basic logging: {e}")
+    else:
+        logging.basicConfig(
+            format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            level=logging.INFO
+        )
+
+    # Initialize database
+    if DB_AVAILABLE:
+        try:
+            init_db()
+            logger.info("✅ Database initialized successfully")
+        except Exception as e:
+            logger.error(f"❌ Failed to initialize database: {e}")
+            logger.warning("⚠️  Bot will continue without database support")
+
+    # Load locales and config
     load_locales()
+    logger.info("✅ Locales loaded")
+
     cfg = Config.load()
+    logger.info(f"✅ Config loaded for admin: {cfg.admin_username}")
 
     async def _post_init(app):
         try:
@@ -77,7 +113,13 @@ def init_app():
 def run() -> None:
     """Run the bot."""
     app = init_app()
-    logger.info("Bot is polling  let's fuckkk...")
+    logger.info("=" * 60)
+    logger.info("🚀 GZne Bot started successfully!")
+    logger.info("=" * 60)
+    logger.info("📊 Database: %s", "Enabled ✅" if DB_AVAILABLE else "Disabled ⚠️")
+    logger.info("📝 Logging: Production mode" if DB_AVAILABLE else "Basic mode")
+    logger.info("🔄 Starting polling...")
+    logger.info("=" * 60)
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
