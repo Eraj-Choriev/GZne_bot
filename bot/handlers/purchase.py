@@ -1,5 +1,4 @@
 import asyncio
-import logging
 from datetime import timedelta
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ContextTypes
@@ -13,15 +12,6 @@ from ..data import find_product, generate_order_id
 from ..payments import get_payment_method_details
 
 from .start import send_main_menu
-
-# Import database functions
-try:
-    from ..models import create_order, update_order_status, track_event
-    DB_AVAILABLE = True
-except ImportError:
-    DB_AVAILABLE = False
-
-logger = logging.getLogger(__name__)
 
 # --- Helper Functions ---
 
@@ -183,29 +173,6 @@ async def handle_payment(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         'method_name': method_name,
     })
 
-    # Save order to database
-    if DB_AVAILABLE:
-        try:
-            # Get product category (from current_product ID)
-            product_category = USER_DATA[user_id].get('current_category', 'unknown')
-
-            create_order(
-                telegram_id=user_id,
-                order_id=order_id,
-                product_id=USER_DATA[user_id]['current_product'],
-                product_name=product.get('name', 'Unknown Product'),
-                product_category=product_category,
-                price_tjs=price if currency == 'TJS' else 0,
-                price_usd=price if currency == 'USD' else price / 10.6  # Convert TJS to USD approx
-            )
-            logger.info(f"✅ Order {order_id} saved to database for user {user_id}")
-
-            # Track purchase attempt event
-            track_event(user_id, 'purchase_initiated', f'Product: {product.get("name")}, Order: {order_id}')
-        except Exception as e:
-            logger.error(f"❌ Failed to save order to database: {e}")
-            # Continue anyway - order info is still in USER_DATA
-
     # Build the payment message
     # Calculate old price
     old_price = price * 2
@@ -335,18 +302,6 @@ async def handle_cancel_order_final(update: Update, context: ContextTypes.DEFAUL
     user_id = query.from_user.id
     lang = get_user_lang(user_id)
     L = get_locale(lang)
-
-    # Update order status in database
-    if DB_AVAILABLE and USER_DATA.get(user_id, {}).get('order_id'):
-        try:
-            order_id = USER_DATA[user_id]['order_id']
-            update_order_status(order_id, 'cancelled', 'Cancelled by user')
-            logger.info(f"✅ Order {order_id} cancelled in database")
-
-            # Track cancellation event
-            track_event(user_id, 'order_cancelled', f'Order: {order_id}')
-        except Exception as e:
-            logger.error(f"❌ Failed to update order status: {e}")
 
     # Clean up user state
     remove_scheduled_jobs(context, user_id)
